@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman';
+    
+}
+h1{
+    text-align: center;
+    font-size:50px ;
+}
+h2{
+    text-align: center;
+    font-size:30px ;
+}
+h3{
+    text-align: center;
+    font-size:30px ;
+}
+h4{
+    text-align: center;
+    font-size:  30px ;
+}
+#big_div{
+   
+    font-size: 32px;
+    padding: 5px;
+   text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#one{
+    color: blue;
+}
+#two{
+    color: orange;
+}
+#three{
+    color: purple;
+}
+#four{
+    color: pink;
+}
+.Items :hover {
+    color: red;
+    opacity: 0.5;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+}
+#next_div{
+    
+    font-size: 32px;
+    padding: 5px;
+   text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding:20px;
+    border: solid;
+    border-color: blue;
+
+}
+#next_div img{
+    width: 200px
+}
+#next_div p{
+   color: black;
+}
+
+/*DROPDOWNS*/
+#four{
+    color: red;
+    background-color:transparent;
+    font-size: 32px;
+}
+
+.content {
+    display: none; 
+    position: absolute;
+    background-color: peachpuff;
+    min-width: 100px; 
+    padding: 10px;
+}
+
+.content a {
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.content a:hover{
+    color: blue;
+}
+.dropdown:hover .content{
+    display:block;
+}

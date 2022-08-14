@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica;
+}
+div{
+    
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+#big_div{
+    font-size: 32px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.Items:hover{
+    color:red;  
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+#big_div img{
+    width: 80px;
+}
+#reg img{
+    width: auto;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#next_div{
+    display:flex;
+    justify-content:space-around;
+}
+#next_div img{
+    width: 400px;
+}
